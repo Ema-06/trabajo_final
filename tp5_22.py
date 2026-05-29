@@ -10,6 +10,6 @@ palabra = input("Ingrese una palabra: ")
 posicion = buscarPrimeraPosicion(palabra, letra)
 
 if posicion is not None:
-    print("la lerea " + letra + " esta en la posicion: " + str(posicion))
+    print("la letra " + letra + " esta en la posicion: " + str(posicion))
 else:
-    print("No se encontro dentro de la palabra")
+    print("No se encontro dentro de la palabra, la letra deseada")
